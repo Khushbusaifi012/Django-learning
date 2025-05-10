@@ -37,8 +37,9 @@ def datetime_info(request):   #fourth view
 
 def index(request):   #fifth view
     time=datetime.datetime.now()
+    Degree='BTECH computer science'
     name='Django'
     prerequisite='Python'
-    my_dict={'time':time,'name':name,'prerequisite':prerequisite}
+    my_dict={'time':time,'Degree':Degree,'name':name,'prerequisite':prerequisite}
     return render (request,'index.html',context=my_dict)
 
