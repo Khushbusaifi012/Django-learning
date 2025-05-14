@@ -20,3 +20,9 @@ class College(models.Model):    #college model
     course=models.CharField(max_length=20)
     location=models.CharField(max_length=20)
     mobilenumber=models.IntegerField()
+
+class Address(models.Model):   #Address model
+    street = models.CharField(max_length=100)
+    city = models.CharField(max_length=50)
+    state = models.CharField(max_length=50)
+    zip_code = models.CharField(max_length=10)
