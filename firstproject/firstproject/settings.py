@@ -81,7 +81,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'employeedb',
         'USER': 'root',
-        'PASSWORD': 'khushbu123',
         'HOST': 'localhost',
         'PORT': 3306
     },
@@ -90,7 +89,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'studentdb',
         'USER': 'root',
-        'PASSWORD': 'khushbu123',
         'HOST': 'localhost',
         'PORT': 3306
     },
@@ -99,7 +97,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'collegedb',
         'USER': 'root',
-        'PASSWORD': 'khushbu123',
         'HOST': 'localhost',
         'PORT': 3306
     },
@@ -108,7 +105,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'addressdb',
         'USER': 'root',
-        'PASSWORD': 'khushbu123',
         'HOST': 'localhost',
         'PORT': 3306
     } 
